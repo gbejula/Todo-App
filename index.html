@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section class="container">
+		<div class="header">
+			<h2>My ToDo List</h2>
+			<input type="text" id="myText" placeholder="Add your ToDo">
+			<button onclick="createTodo()" class="addBtn">Add</button>
+		</div>
+
+		<div class="listcontainer">
+			<ul class="todolist" id="myUl">
+				<li><input type="checkbox" />See my Dentist <button id="delBtn">Delete</button></li>
+				<li class="checked"><input type="checkbox" />Visit the zoo <button id="delBtn">Delete</button></li>
+				<li><input type="checkbox" />Pay bills <button id="delBtn">Delete</button></li>
+
+			</ul>
+		</div>
+	</section>
+
+
+	<script src="main.js"></script>
+
+</body>
+</html>
